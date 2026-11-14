@@ -1,0 +1,17 @@
+# Source kernel và file build
+linux-*/
+linux-*.tar*
+*.o
+*.ko
+bzImage
+initramfs*
+*.cpio*
+
+# KHÓA VÀ CẤU HÌNH CÁ NHÂN: tuyệt đối không commit
+*.pem
+*.key
+*.p12
+signing_key*
+x509.genkey
+catosea-keys/
+catosea-local.fragment
